@@ -33,7 +33,7 @@ Generate virtually unlimited amounts of braille sudoku puzzles in Portable Embos
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 The following instructions will be provided in great detail, as they are intended for a broad audience and will
-allow to run a copy of <b>Brailloku</b> on a local computer. Here is a link to an instructional video explaining the steps 1 through 8 described below: **The link will be included here once the Youtube video is posted**.
+allow to run a copy of <b>Brailloku</b> on a local computer. Here is a link to an instructional video explaining the steps described below: **The link will be included here once the Youtube video is posted**.
 
 The paths included in the code are formatted for Unix (Linux) operating systems (OS), so the following instructions 
 are for Linux OS environments.
