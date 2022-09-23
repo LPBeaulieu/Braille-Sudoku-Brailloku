@@ -46,7 +46,7 @@ The image above shows the steps to take in order to download the compressed fold
 
 <b>Step 2</b>- In order to set up Brailloku on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header, as shown in Figure 2. 
 
-![Open in Terminal Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Open%20in%20Terminal%20Image.jpg)<hr>
+![Open in Terminal Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Open%20in%20Terminal%20Screenshot%20Image.jpg)<hr>
 
 Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder. Copy and paste (or write down) the following in the command line to install <b>alive-Progress</b> (Python module for progress bar displayed in command line): 
 ```
