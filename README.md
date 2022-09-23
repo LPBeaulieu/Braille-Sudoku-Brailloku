@@ -74,7 +74,7 @@ Furthermore, you can have <b>Brailloku</b> generate multiple braille sudoku PEF 
 python3 brailloku.py n50
 ```
 
-Finally, you can specify both the difficulty level and the number of puzzles to generate, simply enter both arguments mentioned above in any order, after the Python code call. Please make sure to include a space in between the Python code file name any additional arguments. For example, to generate 50 sudoku puzzles each having 35 empty cells, you would enter the following in command line:
+Finally, you can specify both the difficulty level and the number of puzzles to generate. Simply enter both arguments mentioned above in any order, after the Python code call. Please make sure to include a space in between the Python code file name any additional arguments. For example, to generate 50 sudoku puzzles each having 35 empty cells, you would enter the following in command line:
 ```
 python3 brailloku.py n50 e35
 ```
