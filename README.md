@@ -5,9 +5,9 @@ Generate virtually unlimited amounts of braille sudoku puzzles in Portable Embos
 <h3 align="center">Brailloku</h3>
 <div align="center">
   
-  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPLv3.0-brightgreen.svg)](https://github.com/LPBeaulieu/Brailloku/blob/main/LICENSE)
-  [![GitHub last commit](https://img.shields.io/github/last-commit/LPBeaulieu/Brailloku)](https://github.com/LPBeaulieu/Brailloku)
-  [![GitHub issues](https://img.shields.io/github/issues/LPBeaulieu/TintypeText)](https://github.com/LPBeaulieu/Brailloku)
+  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPLv3.0-brightgreen.svg)]([https://github.com/LPBeaulieu/Brailloku](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku)/blob/main/LICENSE)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/LPBeaulieu/Brailloku)]([https://github.com/LPBeaulieu/Brailloku](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku))
+  [![GitHub issues](https://img.shields.io/github/issues/LPBeaulieu/TintypeText)]([https://github.com/LPBeaulieu/Brailloku](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku))
   
 </div>
 
@@ -38,19 +38,19 @@ allow to run a copy of <b>Brailloku</b> on a local computer. Here is a link to a
 The paths included in the code are formatted for Unix (Linux) operating systems (OS), so the following instructions 
 are for Linux OS environments.
 
+<b>Step 1</b>- Head over to the main Brailloku github page, click on the <b>Code</b> button and then click on the <b>Download zip</b> button.
+Extract the zipped folder into your desired location, and the "Braille-Sudoku-Brailloku-main" folder will now serve as your working folder, which contains the Python code you will later run in order to generate sudoku puzzles.   
 
-```
-<b>Step 1</b>- In order to set up Brailloku on your computer, create a working folder, access it in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder. Copy and paste (or write down) the following in the command line to install <b>alive-Progress</b> (Python module for progress bar displayed in command line): 
+![Download Coode Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Download%20Code%20Screenshot.jpg)<hr>
+The image above shows the steps to take in order to download the compressed folder containing the code.
+
+<b>Step 2</b>- In order to set up Brailloku on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder. Copy and paste (or write down) the following in the command line to install <b>alive-Progress</b> (Python module for progress bar displayed in command line): 
 ```
 pip install alive-progress
 ```
 
-<b>Step 1</b>- Head over to the main Brailloku github page and click on the 
-![Download Coode Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Download%20Code%20Screenshot.jpg)<hr>
-The image above shows the steps to take in order to download the compressed folder containing the code to your working folder.
-```
-<b>Step 2</b>- You're now ready to use <b>Brailloku</b>! 🎉
-```
+<b>Step 3</b>- You're now ready to use <b>Brailloku</b>! 🎉
+
 
 ## 🎈 Usage <a name="usage"></a>
 
