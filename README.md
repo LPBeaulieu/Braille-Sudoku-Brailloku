@@ -5,10 +5,10 @@ Generate virtually unlimited amounts of braille sudoku puzzles in Portable Embos
 <h3 align="center">Brailloku</h3>
 <div align="center">
   
-  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPLv3.0-brightgreen.svg)]([https://github.com/LPBeaulieu/Brailloku](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku)/blob/main/LICENSE)
-  [![GitHub last commit](https://img.shields.io/github/last-commit/LPBeaulieu/Brailloku)]([https://github.com/LPBeaulieu/Brailloku](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku))
-  [![GitHub issues](https://img.shields.io/github/issues/LPBeaulieu/TintypeText)]([https://github.com/LPBeaulieu/Brailloku](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku))
-  
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPLv3.0-brightgreen.svg)](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/LPBeaulieu/Braille-Sudoku-Brailloku)](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku)
+[![GitHub issues](https://img.shields.io/github/issues/LPBeaulieu/Braille-Sudoku-Brailloku)](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku)
+
 </div>
 
 ---
