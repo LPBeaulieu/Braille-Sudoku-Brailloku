@@ -13,7 +13,7 @@ Generate virtually unlimited amounts of braille sudoku puzzles in Portable Embos
 
 ---
 
-<p align="left"> <b>Brailloku</b> is a app that generates virtually unlimited amounts of braille sudoku puzzles in Portable Embosser Format (PEF)!</p>
+<p align="left"> <b>Brailloku</b> is an app that generates virtually unlimited amounts of braille sudoku puzzles in Portable Embosser Format (PEF)!</p>
 <p align="left"> You can also <b>select the number of empty cells</b> in your puzzle (up to 46 inclusively) and the <b>number of puzzles</b> that you want it to create for you! 
      <br> 
 </p>
