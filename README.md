@@ -1,29 +1,21 @@
 # Brailloku
 Generate virtually unlimited amounts of braille sudoku puzzles in Portable Embosser Format (PEF)!
 
-![Image RTF basic mode](https://github.com/LPBeaulieu/Typewriter-OCR-TintypeText/blob/main/TintypeText%20basic%20rtf%20mode%20screenshot.jpg)
-<h3 align="center">Tintype¶Text</h3>
+![Image RTF basic mode](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Brailloku%20Thumbnail.jpg)
+<h3 align="center">Brailloku</h3>
 <div align="center">
   
-  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPLv3.0-brightgreen.svg)](https://github.com/LPBeaulieu/TintypeText/blob/main/LICENSE)
-  [![GitHub last commit](https://img.shields.io/github/last-commit/LPBeaulieu/TintypeText)](https://github.com/LPBeaulieu/TintypeText)
-  [![GitHub issues](https://img.shields.io/github/issues/LPBeaulieu/TintypeText)](https://github.com/LPBeaulieu/TintypeText)
+  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPLv3.0-brightgreen.svg)](https://github.com/LPBeaulieu/Brailloku/blob/main/LICENSE)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/LPBeaulieu/Brailloku)](https://github.com/LPBeaulieu/Brailloku)
+  [![GitHub issues](https://img.shields.io/github/issues/LPBeaulieu/TintypeText)](https://github.com/LPBeaulieu/Brailloku)
   
 </div>
 
 ---
 
-<p align="left"> <b>Tintype¶Text</b> is a tool enabling you to convert scanned typewritten pages (in JPEG image format) into rich text format (RTF) 
-  documents, complete with formatting elements such as text alignment, paragraphs, <u>underline</u>, <i>italics</i>, <b>bold</b> and <del>strikethrough</del>. </p>
-<p align="left"> A neat functionality of <b>Tintype¶Text</b> is that the typos (wrong typewritten characters overlaid with a hashtag)
-  automatically get filtered out, and do not appear in the final RTF text. This feature, when combined with erasable typewriter ink (see https://www.reddit.com/r/typewriters/comments/ujqxrh/how_to_make_erasable_typewriter_ink/) brings the typewriter well into the 21<sup>st</sup> century as a data entry tool!
-  
-  - You can get my <b>deep learning models</b> for both typewriters on which I developed the code on my Google Drive (<i>2021 
-Royal Epoch</i> https://drive.google.com/drive/folders/1DUKqYf7wIkRAobC8fYPjum5gFOJqJurv?usp=sharing and <i>1968 Olivetti Underwood Lettera 33</i> https://drive.google.com/drive/folders/1sykG3zUfr8RJVbk59ClnzHjO3qgkXTmF?usp=sharing), where the datasets and other useful information to build your own datasets may be found. 
-- The code showcased in this github page is the one that was used to generate a model with <b>99.93% optical character recognition (OCR) accuracy</b> with the 2021 Royal Epoch typewriter, which is in production and commercially available (I'm not affiliated with them, no worries).
-- The generalizability of the model trained on a 2021 Royal Epoch typewriter was assessed on another unit of the same model (2019 Royal Epoch typewriter), with a text over 6,000 characters long. It gave an OCR accuracy of 99.22%, thus demonstrating that deep learning models trained with <b>Tintype¶Text</b> could be used with other typewriters of the same model (albeit with somewhat lower accuracy).
-  
-    <br> 
+<p align="left"> <b>Brailloku</b> is a app that generates virtually unlimited braille sudoku puzzle Portable Embosser Format (PEF) files!</p>
+<p align="left"> You can also <b>select the number of empty cells</b> in your puzzle (up to 46 inclusively) and the <b>number of puzzles</b> you want it to create!
+     <br> 
 </p>
 
 ## 📝 Table of Contents
@@ -34,92 +26,38 @@ Royal Epoch</i> https://drive.google.com/drive/folders/1DUKqYf7wIkRAobC8fYPjum5g
 - [Acknowledgments](#acknowledgments)
 
 ## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
-- This Python project relies on the Fastai deep learning library (https://docs.fast.ai/) to generate a convoluted neural network 
-  deep learning model, which allows for typewriter optical character recognition (OCR). It also needs OpenCV to perform image segmentation 
-  (to crop the individual characters in the typewritten page images).
-  
-- A deep learning model trained on a specific typewriter is unlikely to generalize well to other typewriter brands, which may use different 
-  typesets and character spacing. It is therefore preferable to train a model on your own typewriter.
-- For best results, the typewritten text should be <b>double spaced</b> to avoid segmentation mistakes or omissions and the 8 1/2" x 11" typewritten pages should be <b>scanned at a resolution of 600 dpi</b>, as this resolution was used when writing the code.
-- Every typewritten line should have <b>at least five adjoining letters</b> in order to be properly detected. Should a line only contain a word with 
-  four or fewer letters, you could make up for the missing letters by using any character (other than "#") overlaid with a hashtag, which will 
-  be interpreted by the code as an empty string, and will not impact the meaningful text on the line in the final rich text format (RTF) document.
-- The <b>hashtag character is reserved</b> for designating typos, as a hyphen or equal sign overlaid with a hashtag are very similar to a hashtag 
-  character by itself and would lead to OCR accuracy loss if it were used as a regular character.
-- The <b>"@" symbol is reserved</b> to designate characters that are to be deleted (see description below) and should not be used on your typewriter, if it has such a type slug. 
-- It should be noted that one of the typewriters with which the code was developed  (1968 Olivetti Underwood Lettera 33) doesn’t have specific type slugs for numbers zero (0) and one (1). After the OCR step, the Python code will interpret whether the surrounding characters are also digits 
-  and assign the values to instances of uppercase “O” and lowercase “L” accordingly. It also converts the uppercase “O” into zero if it is 
-  in one of the closing RTF formatting commands (e.g. \iO is changed to \i0). Even if your typewriter has type slugs for zero and one, make sure that they are very distinct in appearance from the uppercase “O” and lowercase “L” in order to ensure good OCR accuracy. Otherwise, just use the letters instead. Also, the <b>equal sign</b> on the typewriter is interpreted as a <b>backslash</b> if it is followed by a letter or an RTF escape (\\' (ASCII rtf character escape), \\- (hyphenation point) or \\_ (nonbreaking hyphen)), which is useful in RTF commands and escape codes. For an in-depth explanation of all the most common RTF commands and escapes, please consult: https://www.oreilly.com/library/view/rtf-pocket-guide/9781449302047/ch01.html. 
-- To keep things as simple as possible in the (default) <b>basic RTF mode</b> of the "get_predictions.py" code, the use of curly brackets "{}" is disabled and "=par" is changed for "\par\pard" after OCR ("=" is used as there are no backslashes on typewriters). This means that the paragraph-formatting attributes (such as centered alignment, "<i>qc</i>" in the first line of the image above) are returned to their default values automatically when a new paragraph is started by typing "=par" on the typewriter.
-- In the <b>advanced RTF mode</b>, the use of two successive parentheses "(( and ))" is translated to curly braces "{ and }", respectively, in the "get_predictions.py" Python code. Also, "=par" is changed to "\par" in the advanced RTF mode (and not to "\par\pard" as in the basic RTF mode). This allows more flexibility and the use of the curly brackets already limits the scope of the RTF commands, so there is no need to have a "\pard" added automatically. The image below illustrates how to use the parentheses in RTF commands in the advanced RTF mode. 
-
-![Image RTF advanced mode](https://github.com/LPBeaulieu/Typewriter-OCR-TintypeText/blob/main/TintypeText%20advanced%20rtf%20mode%20image.jpg)<hr>
-
-- It is recommended to include a space between your text and the parentheses (single or double, see image above), to reduce segmentation issues due to staggered character rectangles. The Python code automatically removes these spaces (if present) in the final RTF document (see image above). 
-
-Despite these issues, the code has successfully located characters (segmentation step) on lines with at least 5 successive letters with a success 
-rate above 99.99% for the training/validation data consisting of over 25,000 characters. The only issue reported with the training/validation 
-data was an omitted period. As for the OCR accuracy, it was consistently above 99.8% regardless of the hyperparameters investigated (other than kernel size), provided
-a good-sized dataset is used for training. 
+- The sudoku puzzles generated by Brailloku are created such that <b>there is always a way to fill an empty cell by direct logical deductions, without resorting to pencil marks or complicated tactics</b>. This is an important factor for sudoku puzzles in braille format, as the player cannot annotate the sudoku grid with pencil marks and moreover doesn't have a broad view of the playing grid, which is required for more complex puzzle solving techniques. 
+- The point described above entails that there is a limit to the number of empty braille cells that can be included in any given sudoku puzzle while meeting these requirements. As such, a maximum of 46 empty braille cells can be selected by the player, and the time required to generate a puzzle can exceed 5 seconds at this setting. Generally though, the puzzles are created within 2 seconds.
 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 The following instructions will be provided in great detail, as they are intended for a broad audience and will
-allow to run a copy of <b>Tintype¶Text</b> on a local computer. Here is a link to an instructional video explaining the steps 1 through 8 described below: https://www.youtube.com/watch?v=FG9WUW6q3dI&list=PL8fAaOg_mhoEZkbQuRgs8MN-QSygAjdil&index=2.
+allow to run a copy of <b>Brailloku</b> on a local computer. Here is a link to an instructional video explaining the steps 1 through 8 described below: **The link will be included here once the Youtube video is posted**.
 
 The paths included in the code are formatted for Unix (Linux) operating systems (OS), so the following instructions 
 are for Linux OS environments.
 
-<b>Step 1</b>- Go to the command line in your working folder and install the <b>Atom</b> text editor to make editing the code easier:
-```
-sudo snap install atom --classic
-```
 
-<b>Step 2</b>- Create a virtual environment (called <i>env</i>) in your working folder:
 ```
-python3 -m venv env
-```
-
-<b>Step 3</b>- Activate the <i>env</i> virtual environment <b>(you will need to do this step every time you use the Python code files)</b> 
-in your working folder:
-```
-source env/bin/activate
-```
-
-<b>Step 4</b>- Install <b>PyTorch</b> (Required Fastai library to convert images into a format usable for deep learning) using the following command (or the equivalent command found at https://pytorch.org/get-started/locally/ suitable to your system):
-```
-pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
-```
-
-<b>Step 5</b>- Install the <i>CPU-only</i> version of <b>Fastai</b> (Deep Learning Python library, the CPU-only version suffices for this application, as the character images are very small in size):
-```
-pip install fastai
-```
-
-<b>Step 6</b>- Install <b>OpenCV</b> (Python library for image segmentation):
-```
-pip install opencv-python
-```
-
-<b>Step 7</b>- Install <b>alive-Progress</b> (Python module for progress bar displayed in command line):
+<b>Step 1</b>- In order to set up Brailloku on your computer, create a working folder, access it in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder. Copy and paste (or write down) the following in the command line to install <b>alive-Progress</b> (Python module for progress bar displayed in command line): 
 ```
 pip install alive-progress
 ```
 
-<b>Step 8</b>- Create the folder "OCR Raw Data" in your working folder:
+<b>Step 2</b>- Head over to the main Brailloku github page and click on the 
+
 ```
-mkdir "OCR Raw Data" 
+<b>Step 2</b>- You're now ready to use <b>Brailloku</b>! 🎉
 ```
-<b>Step 9</b>- You're now ready to use <b>Tintype¶Text</b>! 🎉
 
 ## 🎈 Usage <a name="usage"></a>
-There are four different Python code files that are to be run in sequence. You can skip ahead to file 4 ("get_predictions.py") if you will be using one of the models in the Google Drive links above. You can find instructions for every Python file in the TintypeText - Typewriter Optical Character Recognition (OCR) playlist on my YouTube channel: https://www.youtube.com/playlist?list=PL8fAaOg_mhoEZkbQuRgs8MN-QSygAjdil.<br><br>
-<b>File 1: "create_rectangles.py"</b>- This Python code enables you to see the segmentation results (the green rectangles delimiting
-the individual characters on the typewritten image) and then write a ".txt" file with the correct labels for each rectangle. The mapping
-of every rectangle to a label will allow to generate a dataset of character images with their corresponding labels. The typewriter
-page images overlaid with the character rectangles are stored in the "Page image files with rectangles" folder, which is created
-automatically by the code.
+
+In order to set up Brailloku on your computer, create a working folder, access it in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder.
+Then copy and paste (or type in) the following in the command line: 
+```
+python3 brailloku.py
+```
 
 You might need to <b>alter the values</b> of the variables "<b>character_width</b>" (default value of 55 pixels for 8 1/2" x 11" typewritten pages 
 scanned at a resolution of 600 dpi) and "<b>spacer_between_characters</b>" (default value of 5 pixels), as your typewriter may have a different typeset than those of my typewriters (those two default parameters were suitable for both my <i>2021 Royal Epoch</i> and <i>1968 Olivetti Underwood Lettera 33</i> typewriters). Also, if your typewriter has a lot of ghosting (faint outline of the preceding character) or if the signal to noise ratio is elevated (because of high ink loading on the ribbon leading to lots of ink speckling on the page), the segmentation code might pick up the ghosting or noise as characters. As a result, you could then end up with staggered character rectangles. In the presence of dark typewritten text you should decrease the segmentation sensitivity (increase the number of non-white y pixels required for a given x coordinate in order for that x coordinate to be included in the segmentation). That is to say that on a fresh ribbon of ink, you should increase the value of 3 (illustrated below) to about 6 (results will vary based on your typewriter's signal to noise ratio) in the line 57 of "get_predictions.py" in order to avoid including unwanted noise in the character rectangles. 
