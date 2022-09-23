@@ -14,7 +14,7 @@ Generate virtually unlimited amounts of braille sudoku puzzles in Portable Embos
 ---
 
 <p align="left"> <b>Brailloku</b> is a app that generates virtually unlimited braille sudoku puzzle Portable Embosser Format (PEF) files!</p>
-<p align="left"> You can also <b>select the number of empty cells</b> in your puzzle (up to 46 inclusively) and the <b>number of puzzles</b> you want it to create!
+<p align="left"> You can also <b>select the number of empty cells</b> in your puzzle (up to 46 inclusively) and the <b>number of puzzles</b> you want it to create! 
      <br> 
 </p>
 
@@ -38,13 +38,13 @@ allow to run a copy of <b>Brailloku</b> on a local computer. Here is a link to a
 The paths included in the code are formatted for Unix (Linux) operating systems (OS), so the following instructions 
 are for Linux OS environments.
 
-<b>Step 1</b>- Head over to the main Brailloku github page, click on the <b>Code</b> button and then click on the <b>Download zip</b> button.
+<b>Step 1</b>- Head over to the main <b>Brailloku</b> github page, click on the <b>Code</b> button and then click on the <b>Download zip</b> button.
 Extract the zipped folder into your desired location, and the "Braille-Sudoku-Brailloku-main" folder will now serve as your working folder, which contains the Python code you will later run in order to generate sudoku puzzles.   
 
 ![Download Code Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Download%20Code%20Screenshot.jpg)<hr>
 <b>Figure 1</b>:The image above shows the steps to take in order to download the compressed folder containing the code.<br><br>
 
-<b>Step 2</b>- In order to set up Brailloku on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder, as shown in Figure 2.
+<b>Step 2</b>- In order to set up <b>Brailloku</b> on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder, as shown in Figure 2.
 
 ![Open in Terminal Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Open%20in%20Terminal%20Screenshot.jpg)<hr>
 <b>Figure 2</b>: The image above shows the steps to take in order to open the command line in your working folder.<br><br>
@@ -64,12 +64,12 @@ To run the "brailloku.py" code, open a windowed command line in your working fol
 python3 brailloku.py
 ```
 
-Brailloku by default generates sudoku puzzles with a number of empty cells between 26 and 46, inclusively. You can also manually select the number of empty braille cells to include in the puzzle (up to a maximum of 46, inclusively) by typing "e" for empty cells, followed by the desired number. For example, if you would like to have 35 empty cells in your sudoku puzzle, you would enter the following in command line:
+<b>Brailloku</b> by default generates sudoku puzzles with a number of empty cells between 26 and 46, inclusively. You can also manually select the number of empty braille cells to include in the puzzle (up to a maximum of 46, inclusively) by typing "e" for empty cells, followed by the desired number. For example, if you would like to have 35 empty cells in your sudoku puzzle, you would enter the following in command line:
 ```
 python3 brailloku.py e35
 ```
 
-Furthermore, you can have Brailloku generate multiple braille sudoku PEF files (each containing one sudoku and numbered for easy reference) by typing "n" for number of puzzles, followed by the desired number. Please note that in some cases, a puzzle can take more than 5 seconds to generate, as there is a lot of computation being done to ensure that the puzzle will be solvable without resorting to pencil marks or complex tactics. For example, if you would like to generate 50 sudoku puzzles, you would enter the following in command line:
+Furthermore, you can have <b>Brailloku</b> generate multiple braille sudoku PEF files (each containing one sudoku and its solution on the following page) which are numbered for easy reference, by typing "n" for number of puzzles, followed by the desired number. Please note that in some cases, a puzzle can take more than 5 seconds to generate, as there is a lot of computation being done to ensure that the puzzle will be solvable without resorting to pencil marks or complex tactics. For example, if you would like to generate 50 sudoku puzzles, you would enter the following in command line:
 ```
 python3 brailloku.py n50
 ```
