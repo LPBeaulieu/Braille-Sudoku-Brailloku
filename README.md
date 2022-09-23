@@ -41,10 +41,14 @@ are for Linux OS environments.
 <b>Step 1</b>- Head over to the main Brailloku github page, click on the <b>Code</b> button and then click on the <b>Download zip</b> button.
 Extract the zipped folder into your desired location, and the "Braille-Sudoku-Brailloku-main" folder will now serve as your working folder, which contains the Python code you will later run in order to generate sudoku puzzles.   
 
-![Download Coode Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Download%20Code%20Screenshot.jpg)<hr>
+![Download Code Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Download%20Code%20Screenshot.jpg)<hr>
 The image above shows the steps to take in order to download the compressed folder containing the code.
 
-<b>Step 2</b>- In order to set up Brailloku on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder. Copy and paste (or write down) the following in the command line to install <b>alive-Progress</b> (Python module for progress bar displayed in command line): 
+<b>Step 2</b>- In order to set up Brailloku on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header, as shown in Figure 2. 
+
+![Open in Terminal Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Open%20in%20Terminal%20Screenshot.jpg)<hr>
+
+Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder. Copy and paste (or write down) the following in the command line to install <b>alive-Progress</b> (Python module for progress bar displayed in command line): 
 ```
 pip install alive-progress
 ```
