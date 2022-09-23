@@ -49,7 +49,7 @@ Extract the zipped folder into your desired location, and the "Braille-Sudoku-Br
 ![Open in Terminal Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Open%20in%20Terminal%20Screenshot.jpg)<hr>
 <b>Figure 2</b>: The image above shows the steps to take in order to open the command line in your working folder.<br><br>
 
- Copy and paste (or write down) the following in the command line to install <b>alive-Progress</b> (Python module for progress bar displayed in command line): 
+ Copy and paste (or write down) the following in the command line to install <b>alive-Progress</b> (Python module for a progress bar displayed in command line): 
 ```
 pip install alive-progress
 ```
