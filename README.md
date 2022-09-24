@@ -1,7 +1,7 @@
 # Brailloku
 Generate virtually unlimited amounts of braille sudoku puzzles in Portable Embosser Format (PEF)!
 
-![Image RTF basic mode](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Brailloku%20Thumbnail.jpg)
+![Image RTF basic mode](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Brailloku%20PEF%20Thumbnail.jpg)
 <h3 align="center">Brailloku</h3>
 <div align="center">
   
