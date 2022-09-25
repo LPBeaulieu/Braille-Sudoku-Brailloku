@@ -1,7 +1,7 @@
 # Brailloku
 Generate virtually unlimited amounts of braille sudoku puzzles in Portable Embosser Format (PEF)!
 
-![Image RTF basic mode](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Brailloku%20PEF%20Thumbnail.jpg)
+![Image Brailloku PEF](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Brailloku%20PEF%20Thumbnail.jpg)
 <h3 align="center">Brailloku</h3>
 <div align="center">
   
@@ -16,6 +16,12 @@ Generate virtually unlimited amounts of braille sudoku puzzles in Portable Embos
 <p align="left"> <b>Brailloku</b> is an app that generates virtually unlimited amounts of braille sudoku puzzles in Portable Embosser Format (PEF)!</p>
 <p align="left"> You can also <b>select the number of empty cells</b> in your puzzle (up to 46 inclusively) and the <b>number of puzzles</b> that you want it to create for you! 
      <br> 
+     
+![Image Brailloku In Action](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Brailloku%20In%20Action%20Snapshot.jpg)<hr>
+<b>Figure 1</b>: The image above shows how you could play directly on embossed sudoku puzzles, with the help of labelled magnetic push pins. 
+I recommend laying a placemat over the metallic magnetic board in order to decrease the strength of the neodymium-based magnets, which could 
+otherwise crush the braille dots. As I don't have access to a braille embosser, I typed my sudoku on my Perkins Brailler, but it should print 
+very nicely in portrait mode on 8 1/2 by 11" braille or cardstock paper.<br><br>
 </p>
 
 ## 📝 Table of Contents
@@ -42,12 +48,12 @@ are for Linux OS environments.
 Extract the zipped folder into your desired location, and the "Braille-Sudoku-Brailloku-main" folder will now serve as your working folder, which contains the Python code you will later run in order to generate sudoku puzzles.   
 
 ![Download Code Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Download%20Code%20Screenshot.jpg)<hr>
-<b>Figure 1</b>:The image above shows the steps to take in order to download the compressed folder containing the code.<br><br>
+<b>Figure 2</b>:The image above shows the steps to take in order to download the compressed folder containing the code.<br><br>
 
-<b>Step 2</b>- In order to set up <b>Brailloku</b> on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder, as shown in Figure 2.
+<b>Step 2</b>- In order to set up <b>Brailloku</b> on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder, as shown in Figure 3.
 
 ![Open in Terminal Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Open%20in%20Terminal%20Screenshot.jpg)<hr>
-<b>Figure 2</b>: The image above shows the steps to take in order to open the command line in your working folder.<br><br>
+<b>Figure 3</b>: The image above shows the steps to take in order to open the command line in your working folder.<br><br>
 
  Copy and paste (or write down) the following in the command line to install <b>alive-Progress</b> (Python module for a progress bar displayed in command line): 
 ```
