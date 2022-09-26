@@ -45,7 +45,7 @@ otherwise crush the braille dots. Also, the base diameter of the magnets should 
 The following instructions will be provided in great detail, as they are intended for a broad audience and will
 allow to run a copy of <b>Brailloku</b> on a local computer. Here is a link to an instructional video explaining the steps described below: https://www.youtube.com/watch?v=cT8XWUTPtxw.
 
-The following instructions are given for Linux operating system (OS) environments, as I work with Linux on my computer, but it should be fine with other operating systems (windows, macOS) as well. Please send me an e-mail to the address below if you encounter any issues and I will try to improve my code.
+The steps below are given for Linux operating system (OS) environments, as I work with Linux on my computer, but they should be fine with other operating systems (windows, macOS) as well. Please send me an e-mail to the address below should you encounter any issues and I will try to further improve my code.
 
 <b>Step 1</b>- Head over to the main <b>Brailloku</b> github page, click on the <b>Code</b> button and then click on the <b>Download zip</b> button.
 Extract the zipped folder into your desired location, and the "Braille-Sudoku-Brailloku-main" folder will now serve as your working folder, which contains the Python code you will later run in order to generate sudoku puzzles.   
