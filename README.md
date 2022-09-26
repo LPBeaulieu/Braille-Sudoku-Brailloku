@@ -8,6 +8,8 @@ Generate virtually unlimited amounts of braille sudoku puzzles in Braille Ready 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPLv3.0-brightgreen.svg)](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/LPBeaulieu/Braille-Sudoku-Brailloku)](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku)
 [![GitHub issues](https://img.shields.io/github/issues/LPBeaulieu/Braille-Sudoku-Brailloku)](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku)
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+[![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
 
 </div>
 
