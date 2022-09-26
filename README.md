@@ -9,6 +9,7 @@ Generate virtually unlimited amounts of braille sudoku puzzles in Braille Ready 
 [![GitHub last commit](https://img.shields.io/github/last-commit/LPBeaulieu/Braille-Sudoku-Brailloku)](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku)
 [![GitHub issues](https://img.shields.io/github/issues/LPBeaulieu/Braille-Sudoku-Brailloku)](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku)
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+[![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg)
 [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
 
 </div>
@@ -44,8 +45,7 @@ otherwise crush the braille dots. Also, the base diameter of the magnets should 
 The following instructions will be provided in great detail, as they are intended for a broad audience and will
 allow to run a copy of <b>Brailloku</b> on a local computer. Here is a link to an instructional video explaining the steps described below: https://www.youtube.com/watch?v=cT8XWUTPtxw.
 
-The paths included in the code are formatted for Unix (Linux) operating systems (OS), so the following instructions 
-are for Linux OS environments.
+The following instructions are given for Linux operating system (OS) environments, as I work with Linux on my computer, but it should be fine with other operating systems (windows, macOS) as well. Please send me an e-mail to the address below if you encounter any issues and I will try to improve my code.
 
 <b>Step 1</b>- Head over to the main <b>Brailloku</b> github page, click on the <b>Code</b> button and then click on the <b>Download zip</b> button.
 Extract the zipped folder into your desired location, and the "Braille-Sudoku-Brailloku-main" folder will now serve as your working folder, which contains the Python code you will later run in order to generate sudoku puzzles.   
