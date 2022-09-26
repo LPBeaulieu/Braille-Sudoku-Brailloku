@@ -20,8 +20,7 @@ Generate virtually unlimited amounts of braille sudoku puzzles in Braille Ready 
 ![Image Brailloku In Action](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Brailloku%20In%20Action%20Snapshot.jpg)<hr>
 <b>Figure 1</b>: The image above shows how you could play directly on embossed sudoku puzzles, with the help of braille-labelled magnetic push pins. 
 I recommend laying a placemat over the metallic magnetic board in order to decrease the strength of the neodymium-based magnets, which could 
-otherwise crush the braille dots. As I don't have access to a braille embosser, I typed my sudoku on my Perkins Brailler, but it should print 
-very nicely in portrait mode on 8 1/2 by 11" braille or cardstock paper.<br><br>
+otherwise crush the braille dots. Also, the base diameter of the magnets that is in contact with the paper should be at most 15 mm (or 0.6 in) in order to properly fit within the cells of the embossed sudoku grid. As I don't have access to a braille embosser, I typed my sudoku on my Perkins Brailler, but it should print very nicely in portrait mode on 8 1/2 by 11" braille or cardstock paper.<br><br>
 </p>
 
 ## 📝 Table of Contents
