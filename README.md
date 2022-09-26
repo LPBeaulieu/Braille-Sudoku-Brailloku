@@ -91,7 +91,7 @@ The alternative order of the arguments after the Python code file name would be 
 python3 brailloku.py e35 n50
 ```
 
-<b>Brailloku</b> automatically creates a folder named "Brailloku Sudoku Puzzles" within your working folder. It then generates the "Braille Ready Format (BRF)" and "Portable Embosser Format (PEF)" subfolders within the "Brailloku Sudoku Puzzles" folder, and stores the files there. It also uses the file numbers of the BRF or PEF files in the "Brailloku Sudoku Puzzles" subfolders in order to assign the new sudoku puzzle numbers, so it is important to leave the files in those folders to ensure that the numbering remains accurate later on.
+<b>Brailloku</b> automatically creates a folder named "Brailloku Sudoku Puzzles" within your working folder. It then generates the "Braille Ready Format (BRF)" and "Portable Embosser Format (PEF)" subfolders within the "Brailloku Sudoku Puzzles" folder, and stores the files there. It also uses the file numbers of the BRF or PEF files in the "Brailloku Sudoku Puzzles" subfolders in order to assign the new sudoku puzzle numbers, so it is important to leave the files in those folders and to avoid renaming them to ensure that the numbering remains accurate later on.
 
 <br><b>And that's it!</b> You're now ready to solve as many braille sudoku puzzles as you like! If you are close to someone who is visually impaired and would like to help them find an accessible version of sudoku, or maybe if you are only sprucing up your braille reading skills in preparation for the Zombie Apocalypse (lol) then this app is for you! 🎉📖
   
