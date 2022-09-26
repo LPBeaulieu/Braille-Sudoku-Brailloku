@@ -89,7 +89,7 @@ python3 brailloku.py n50 e35
 ```
 
 Finally, you can also opt for a truncated version of the sudoku grid (excluding some of the header text as well as the topmost and lowest horizontal
-delimiters, bringing the number of lines per page down to 18 lines, which allows for embossing on A4 paper in landscape mode. You would then need to     enter "short" as an additional argument after the Python call. For example, to generate 50 truncated sudoku puzzles each having 35 empty cells, you would enter the following in command line. As always, the order of the arguments after the Python code file name doesn't matter): 
+delimiters, bringing the number of lines per page down to 18 lines), which allows for embossing on A4 paper in landscape mode. You would then need to     enter "short" as an additional argument after the Python call. For example, to generate 50 truncated sudoku puzzles each having 35 empty cells, you would enter the following in command line. As always, the order of the arguments after the Python code file name doesn't matter): 
 ```
 python3 brailloku.py e35 n50 short
 ```
