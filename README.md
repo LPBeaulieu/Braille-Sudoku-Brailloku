@@ -68,7 +68,7 @@ pip install alive-progress
 
 ## 🎈 Usage <a name="usage"></a>
 
-To run the "brailloku.py" code, open a windowed command line in your working folder as shown in Figure 2 and enter the following: 
+To run the "brailloku.py" code, open a windowed command line in your working folder as shown in Figure 3 and enter the following: 
 ```
 python3 brailloku.py
 ```
