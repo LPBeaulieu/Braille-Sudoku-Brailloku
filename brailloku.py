@@ -2027,7 +2027,7 @@ with alive_bar(number_of_puzzles) as bar:
         #"short" as an additional argument after the Python call and the variable
         #"short" (initialized to "False"), would then be set to "True".
         pef_file_name = current_file_name +  ".pef"
-        with open(os.path.join(cwd, "Brailloku Sudoku Puzzles/Portable Embosser Format (PEF)", pef_file_name), "a+", encoding="utf-8") as pef_file:
+        with open(os.path.join(cwd, "Brailloku Sudoku Puzzles", "Portable Embosser Format (PEF)", pef_file_name), "a+", encoding="utf-8") as pef_file:
             pef_file.write('<?xml version="1.0" encoding="UTF-8"?>' +
             '\n<pef version="2008-1" xmlns="http://www.daisy.org/ns/2008/pef">\n\t<head>' +
             '\n\t\t<meta xmlns:dc="http://purl.org/dc/elements/1.1/">' +
